@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#define MAX 101
+#define MAX 100001
 #define INF 1000000010
 
 using namespace std;
@@ -47,6 +47,6 @@ int main(void)
 		cin >> a >> b;
 		cout << getMin(0, N - 1, a - 1, b - 1, 1) << "\n";
 	}
-	system("pause");
+	
 	return 0;
 }
